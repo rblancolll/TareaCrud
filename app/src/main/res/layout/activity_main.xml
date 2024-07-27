@@ -12,7 +12,7 @@
     tools:context="com.example.myapplication.MainActivity">
 
     <Button
-        android:id="@+id/btnOpcionRegistro"
+        android:id="@+id/btnRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
@@ -20,4 +20,10 @@
         android:text="Registrar Usuarios"
         tools:ignore="HardcodedText,VisualLintButtonSize" />
 
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick2"
+        android:text="Consultar Usuario" />
 </LinearLayout>

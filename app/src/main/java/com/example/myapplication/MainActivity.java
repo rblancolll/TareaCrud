@@ -25,6 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
                 intent = new Intent(MainActivity.this, RegistroUsuariosActivity.class);
 
+
+        if (intent != null) {
+            startActivity(intent);
+        }
+    }
+
+    public void onClick2(View view) {
+        Intent intent = null;
+
+
+        intent = new Intent(MainActivity.this, ConsultarUsuariosActivity.class);
+
         if (intent != null) {
             startActivity(intent);
         }
