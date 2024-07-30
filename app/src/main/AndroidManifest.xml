@@ -29,5 +29,14 @@
             android:exported="false">
         </activity>
 
+        <activity
+            android:name=".ConsultarListaListViewActivity"
+            android:exported="false">
+        </activity>
+
+        <activity android:name=".DetalleUsuarioActivity">
+
+        </activity>
+
     </application>
 </manifest>

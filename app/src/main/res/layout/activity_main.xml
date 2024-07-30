@@ -46,6 +46,15 @@
         android:onClick="onClick2"
         android:text="Consultar Usuario" />
 
+    <Button
+        android:id="@+id/btnConsultaLista"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick3"
+        android:text="Consultar Lista de Usuarios " />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
